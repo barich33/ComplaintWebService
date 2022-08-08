@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWS.Service", "CWS.Service\CWS.Service.csproj", "{B1CC62E2-1D95-4F06-A45D-E72FDA584EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWS.API", "CWS.API\CWS.API.csproj", "{E36B03B0-706E-4A95-B323-2635E1C4BB69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1CC62E2-1D95-4F06-A45D-E72FDA584EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CC62E2-1D95-4F06-A45D-E72FDA584EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CC62E2-1D95-4F06-A45D-E72FDA584EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CC62E2-1D95-4F06-A45D-E72FDA584EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E36B03B0-706E-4A95-B323-2635E1C4BB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36B03B0-706E-4A95-B323-2635E1C4BB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36B03B0-706E-4A95-B323-2635E1C4BB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36B03B0-706E-4A95-B323-2635E1C4BB69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DA27F70-DA12-4823-BE88-53070C3F6265}
+	EndGlobalSection
+EndGlobal
