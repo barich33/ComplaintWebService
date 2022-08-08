@@ -1,4 +1,5 @@
 ﻿using CWS.Service.categories;
+using CWS.Service.People;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CWS.API.Extensions
@@ -9,7 +10,8 @@ namespace CWS.API.Extensions
         {
             //Services
             services.AddScoped<ICategoryService, CategoryService>();
-        
+            services.AddScoped<IPeopleService, PeopleService>();
+
         }
     }
 }
