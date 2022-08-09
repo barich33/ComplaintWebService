@@ -11,6 +11,7 @@ namespace CWS.API.Extensions
             //Services
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IPeopleService, PeopleService>();
+            services.AddScoped<IJokeService, JokeService>();
 
         }
     }

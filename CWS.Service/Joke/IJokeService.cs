@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace CWS.Service.People
 {
-    public interface IPeopleService
-    {
-        Task<PeopleDTO> GetAllPeoples();
-        Task<PeopleDTO> SearchPeople(string query);
+    public interface IJokeService
+    {       
+        Task<JokeDTO> SearchJokes(string query);
     }
 }
